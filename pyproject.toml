@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ncrisp"
+version = "0.1.0"
+description = "Encryption examples"
+authors = ["ezzye <ezzy.elliott@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"Crypto.Cipher" = "^1"
+crypto = "^1.4.1"
+pycryptodome = "^3.16.0"
+cryptography = "^39.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
